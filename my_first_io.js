@@ -8,6 +8,7 @@ var file = process.argv[2];
 file_content = fs.readFileSync(file)
 // buffer objects can be converted to strings using .toString()
 // or you can also use a 'utf' flag arguement
+// fs.readFileSync(file, 'utf8')
 file_string = file_content.toString();
 // split string into array at new line delimiter
 lines = file_string.split('\n');
