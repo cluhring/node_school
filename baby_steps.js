@@ -9,3 +9,10 @@ for (i = 2; i < num_array.length; i++) {
 }
 
 console.log(sum);
+
+
+// this program sums arguments entered into the command line
+// and returns them via console.log
+
+// sample command:
+// node baby_steps.js 1 2 3 7 9 10
