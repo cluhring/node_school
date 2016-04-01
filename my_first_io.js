@@ -3,7 +3,7 @@ var fs = require('fs');
 // accept one command-line arguement
 var file = process.argv[2];
 // All synchronous filesystem methods in fs module end with 'Sync'
-// readFileSync method returns a Buffer object containing contents of file
+// readFileSync() method returns a Buffer object containing contents of file
 // see fs module documentation for more deets
 file_content = fs.readFileSync(file)
 // buffer objects can be converted to strings using .toString()
